@@ -1,15 +1,27 @@
-# Aplica-o-Dash-com-Plotly
-# 📊 Dashboard de E-commerce com Dash
+# 📊 Dashboard Interativo de E-commerce com Dash
 
-Este projeto consiste em uma aplicação interativa desenvolvida com [Plotly Dash](https://dash.plotly.com/) para análise e visualização de dados de um arquivo de e-commerce.  
-O objetivo é fornecer **insights de vendas, preços e marcas** de forma simples e intuitiva.
+Este projeto implementa uma aplicação web interativa utilizando [Plotly Dash](https://dash.plotly.com/) para análise exploratória de dados de e-commerce.  
+O sistema foi projetado para auxiliar na **visualização, comparação e identificação de padrões** em métricas de vendas, preços e marcas.
+
+---
+
+## 📌 Objetivos do Projeto
+- Fornecer uma interface interativa para análise de dados de e-commerce.
+- Permitir a visualização da **quantidade vendida em função do preço** segmentada por marca.
+- Explorar a distribuição dos produtos através de gráficos dinâmicos.
+- Servir como base para futuras análises e implementação de **módulos de previsão**.
 
 ---
 
-## 🚀 Funcionalidades
-- Gráficos interativos de **dispersão** (quantidade vendida vs preço, por marca).
-- Filtros dinâmicos para explorar diferentes dimensões dos dados.
-- Visualização clara para identificar **tendências e padrões de venda**.
-- Interface simples e acessível via navegador.
+## 🛠️ Arquitetura e Tecnologias
 
----
+### 🔹 Linguagem
+- **Python 3.8+**
+
+### 🔹 Principais bibliotecas
+- **Dash** – construção da interface web interativa.
+- **Plotly Express** – visualização de gráficos de dispersão, linhas, histogramas, etc.
+- **Pandas** – manipulação e análise dos dados.
+- **NumPy** – operações numéricas auxiliares.
+
+### 🔹 Estrutura da Aplicação
